@@ -28,3 +28,4 @@ async function markdownToHtml(markdown) {
     .process(markdown);
   return result.toString();
 }
+const images = require('remark-images'); // Improved image syntax \\http;cl
